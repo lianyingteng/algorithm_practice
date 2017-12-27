@@ -46,7 +46,6 @@ def generateRandomArray(maxLen, maxVal):
         return arr
 
 
-
 if __name__ == '__main__':
 
         interNum = 5000
