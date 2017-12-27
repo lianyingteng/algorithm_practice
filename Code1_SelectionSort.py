@@ -21,6 +21,7 @@ def generateRandomArray(maxLength, maxValue):
 
 	return arr
 
+
 if __name__ == '__main__':
 	interNum = 5000
 	maxLength = 100
