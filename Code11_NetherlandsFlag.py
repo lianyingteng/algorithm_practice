@@ -2,7 +2,6 @@ import random
 
 def generateRandomArray(length):
 	arr = []
-
 	for _ in range(length):
 		arr.append(int(random.random() * 3))
 
