@@ -12,9 +12,9 @@ def minSum(arr):
 def subMergeSort(arr, l, r):
 	if l >= r: return 0
 	mid = l + (r-l)//2
-	return subMergeSort(arr, l, mid) + subMergeSort(arr, mid+1, r) + mergeSort(arr, l, mid, r)
+	return subMergeSort(arr, l, mid) + subMergeSort(arr, mid+1, r) + merge(arr, l, mid, r)
 
-def mergeSort(arr, l, mid, r):
+def merge(arr, l, mid, r):
 	res = 0
 
 	p1, p2 = l, mid+1
