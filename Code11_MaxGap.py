@@ -14,14 +14,15 @@ def maxGap(arr):
 	maxVal, minVal = -sys.maxsize, sys.maxsize
 	for i in range(length):
 		maxVal, minVal = max(maxVal, arr[i]), min(minVal, arr[i])
-	if maxVal == minVal: return 0  ###
+	
+	if maxVal == minVal: return 0  ###【重点】
 
 	bNum = length + 1 
 	mins = [maxVal] * bNum
 	maxs = [minVal] * bNum
 	hasNum = [False] * bNum
 	for i in range(length):
-		bid = (arr[i]-minVal) * length // (maxVal-minVal) ###
+		bid = (arr[i]-minVal) * length // (maxVal-minVal) ### 
 		mins[bid] = min(mins[bid], arr[i])
 		maxs[bid] = max(maxs[bid], arr[i])
 		hasNum[bid] = True
