@@ -4,7 +4,7 @@ def getNextArray(match):
 		return [-1]
 
 	nextArr = [-1, 0]
-	cn = 0
+	cn = 0  # cn 表示前一个字符最长匹配前缀的下一个字符位置
 	while len(nextArr) < len(match):
 		if match[len(nextArr)-1] == match[cn]:
 			cn += 1
