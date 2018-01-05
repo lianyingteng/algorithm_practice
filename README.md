@@ -1,4 +1,3 @@
-# algorithm_practice
 # 数据结构与算法 之 python实现
 ---
 ## 基础篇
