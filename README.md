@@ -23,3 +23,5 @@
 #### 应用
 * [最短扩增序列（包含两个输入序列）](https://github.com/lianyingteng/algorithm_practice/blob/master/Code21_KMP_ShortestHaveTwice.py)  `【基于KMP的next数组构建】`
 
+### 3. 数据结构
+* [使用数组实现栈结构]()
