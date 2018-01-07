@@ -26,3 +26,5 @@
 ### 3. 数据结构
 * [使用数组实现栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Array_To_Stack.py)
 * [使用数组实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Array_To_Queue.py)
+* [实现可以输出栈中最小值的栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_GetMinStack.py)
+* [两个栈实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Stack_To_Queue.py)
