@@ -28,3 +28,5 @@
 * [使用数组实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Array_To_Queue.py)
 * [实现可以输出栈中最小值的栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_GetMinStack.py)
 * [两个栈实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Stack_To_Queue.py)
+* [两个队列实现栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Queue_To_Stack.py)
+* [猫狗队列](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_CatDogQueue.py) `注： 学习python类很好的实践题[重点]`
