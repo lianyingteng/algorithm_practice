@@ -68,25 +68,25 @@ class CatDogQueue(object):
 	def pollAll(self):
 		if not self.isDogEmpty() and not self.isCatEmpty():
 			if self.qCat[0].getCount() < self.qDog[0].getCount():
-				return self.qCat.pop().getPet()
+				return self.qCat.pop(0).getPet()
 			else:
-				return self.qDog.pop().getPet()
+				return self.qDog.pop(0).getPet()
 		elif not self.isDogEmpty():
-			return self.qDog.pop().getPet()
+			return self.qDog.pop(0).getPet()
 		elif not self.isCatEmpty():
-			return self.qCat.pop().getPet()
+			return self.qCat.pop(0).getPet()
 		else:
 			raise IndexError("The queue is empty!")
 
 	def pollDog(self):
 		if not self.isDogEmpty():
-			return self.qDog.pop().getPet()
+			return self.qDog.pop(0).getPet()
 		else:
 			raise IndexError("The dog queue is empty!")
 
 	def pollCat(self):
 		if not self.isCatEmpty():
-			return self.qCat.pop().getPet()
+			return self.qCat.pop(0).getPet()
 		else:
 			raise IndexError("The cat queue is empty!")
 
