@@ -32,3 +32,4 @@
 * [猫狗队列](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_CatDogQueue.py) `注： 学习python类很好的实践题[重点]`
 * [设计RandomPool结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_RandomPool.py)  `注：该题很锻炼逻辑能力[重点]`
 * [转圈打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_spiralOrderPrintMatrix.py) `注：该题很锻炼逻辑能力[重点]`
+* [Z字形打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_spiralOrderPrintMatrix.py) `注：该题很锻炼逻辑能力（刚开始写的时候写懵了）[重点\*]`
