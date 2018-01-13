@@ -43,3 +43,4 @@
 * [链表是回文结构？](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_LinkedListIsPalindrome.py)
 * [链表的Partition过程](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_SmallerEqualBigger.py) 
 * [复制含有随机指针节点的链表](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_CopyListWithRandom.py)
+* [寻找两个单链表第一个相交的结点](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_FindFirstIntersectNode.py)
