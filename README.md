@@ -48,3 +48,4 @@
 
 **堆结构的应用** <br>
 * [**随时找到数据流的中位数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_MedianHolder.py) `P462`
+* [切金条问题：**最小分割代价**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_LessMoney.py)
