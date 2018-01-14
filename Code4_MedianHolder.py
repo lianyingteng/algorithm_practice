@@ -32,14 +32,7 @@ class MedianHolder(object):
 		if self.max_heap.peak() >= val:
 			self.max_heap.push(val)
 		else:
-			if self.min_heap.size == 0:
-				self.min_heap.push(val)
-				return None
-
-			if self.min_heap.peak() > val:
-				self.max_heap.push(val)
-			else:
-				self.min_heap.push(val)
+			self.min_heap.push(val)
 
 		self.__modifyTwoHeapSize()
 		
