@@ -49,4 +49,7 @@
 **堆结构的应用** <br>
 * [**随时找到数据流的中位数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_MedianHolder.py) `P462`
 * [切金条问题：**最小分割代价**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_LessMoney.py)
-* [**如何使得项目获得收益最大化**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_IPO.py) `设计python的类的继承`
+* [**如何使得项目获得收益最大化**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_IPO.py) `涉及python的类的继承`
+
+**二叉树题** <br>
+* [折纸问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PaperFolding.py)
