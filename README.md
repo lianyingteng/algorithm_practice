@@ -39,6 +39,7 @@
 * [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_FindNumInSortedMatrix.py)<br> 
 
 **链表题**<br> 
+
 * [打印两个有序链表的公共部分](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_PrintCommonPart.py)  `注： Node类中， value和next依附于实例`
 * [链表是回文结构？](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_LinkedListIsPalindrome.py)
 * [链表的Partition过程](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_SmallerEqualBigger.py) 
@@ -47,9 +48,12 @@
 * [反转单(双)向链表](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_ReverseList.py)
 
 **堆结构的应用** <br>
+
 * [**随时找到数据流的中位数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_MedianHolder.py) `P462`
 * [切金条问题：**最小分割代价**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_LessMoney.py)
 * [**如何使得项目获得收益最大化**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_IPO.py) `涉及python的类的继承`
 
 **二叉树题** <br>
+
 * [折纸问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PaperFolding.py)
+* [**二叉树的先序、中序、后序遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PreInPosRecur.py) `重点是非递归实现`
