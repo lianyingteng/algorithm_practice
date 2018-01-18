@@ -57,3 +57,6 @@
 
 * [折纸问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PaperFolding.py)
 * [**二叉树的先序、中序、后序遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PreInPosRecur.py) `重点是非递归实现`
+* [较为直观打印二叉树](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PrintTree.py)
+* [在二叉树中找到一个节点的后继节点](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_GetNextNode.py)
+
