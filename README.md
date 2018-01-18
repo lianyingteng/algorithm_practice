@@ -14,14 +14,14 @@
 * [最大间隔问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code11_MaxGap.py)  求无序数组排序之后 相邻两数的最大差值？`【桶排序思想的应用】 `
 * [小和问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code11_MinSum.py)  给定一个数组，计算所有小和`【归并排序思想的应用】` 
 * [荷兰国旗问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code11_NetherlandsFlag.py)  小于的放在左边、等于的放在中间、大于的放在右边`【快排划分的应用】`
-* [查找无序数组前k个最小的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Code11_heapSort.py)  该程序基于堆排序思想，建立大小为k的大根堆。`注： 该问题的最优解是下节中的BFPRT算法` <br> 
+* [查找无序数组前k个最小的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Code11_heapSort.py)  该程序基于堆排序思想，建立大小为k的大根堆。`注： 该问题的最优解是下节中的BFPRT算法` 
 
 ### 2. KMP、Manacher、BFPRT
 * [KMP算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Code2_KMP.py) `解决字符串匹配问题`
 * [Manacher算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Code2_Manacher.py) `解决最长回文子串问题`
 * [BFPRT算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Code2_BFPRT.py) `查找无序数组中第k小的数`
 #### 应用
-* [最短扩增序列（包含两个输入序列）](https://github.com/lianyingteng/algorithm_practice/blob/master/Code21_KMP_ShortestHaveTwice.py)  `【基于KMP的next数组构建】` <br> 
+* [最短扩增序列（包含两个输入序列）](https://github.com/lianyingteng/algorithm_practice/blob/master/Code21_KMP_ShortestHaveTwice.py)  `【基于KMP的next数组构建】`
 
 ### 3. 数据结构
 
@@ -36,7 +36,9 @@
 * [设计RandomPool结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_RandomPool.py) 
 * [转圈打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_spiralOrderPrintMatrix.py) 
 * [Z字形打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_spiralOrderPrintMatrix.py)
-* [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_FindNumInSortedMatrix.py)<br> 
+* [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_FindNumInSortedMatrix.py)
+* [岛屿问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_IsLands.py)
+* [找到无序数组局部最下位置](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_findLessValueIndex.py)  `二分也可用于数组无序的情况`
 
 **链表题**<br> 
 
@@ -59,4 +61,8 @@
 * [**二叉树的先序、中序、后序遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PreInPosRecur.py) `重点是非递归实现`
 * [较为直观打印二叉树](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PrintTree.py)
 * [在二叉树中找到一个节点的后继节点](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_GetNextNode.py)
+
+**其他重要知识** <br>
+
+* [**并查集结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_UnionFindSet.py)
 
