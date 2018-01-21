@@ -9,7 +9,7 @@
 * [归并排序](https://github.com/lianyingteng/algorithm_practice/blob/master/Code1_MergeSort.py "Code1_MergeSort.py")
 * [堆排序](https://github.com/lianyingteng/algorithm_practice/blob/master/Code1_HeapSort.py "Code1_HeapSort.py")
 * [桶排序](https://github.com/lianyingteng/algorithm_practice/blob/master/Code1_BucketSort.py "Code1_BucketSort.py")
-   
+
 #### 应用
 * [最大间隔问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code11_MaxGap.py)  求无序数组排序之后 相邻两数的最大差值？`【桶排序思想的应用】 `
 * [小和问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code11_MinSum.py)  给定一个数组，计算所有小和`【归并排序思想的应用】` 
@@ -25,7 +25,7 @@
 
 ### 3. 数据结构
 
-**数组题** <br>
+**数组结构** <br>
 
 * [使用数组实现栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Array_To_Stack.py)
 * [使用数组实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_Array_To_Queue.py)
@@ -39,8 +39,11 @@
 * [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_FindNumInSortedMatrix.py)
 * [岛屿问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_IsLands.py)
 * [找到无序数组局部最下位置](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_findLessValueIndex.py)  `二分也可用于数组无序的情况`
+* [找到有序数组中第一个大于或等于k的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_BinarySearch.py) `二分`
 
-**链表题**<br> 
+
+
+**链表结构**<br> 
 
 * [打印两个有序链表的公共部分](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_PrintCommonPart.py)  `注： Node类中， value和next依附于实例`
 * [链表是回文结构？](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_LinkedListIsPalindrome.py)
@@ -49,18 +52,35 @@
 * [寻找两个单链表第一个相交的结点](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_FindFirstIntersectNode.py)
 * [反转单(双)向链表](https://github.com/lianyingteng/algorithm_practice/blob/master/Code3_ReverseList.py)
 
-**堆结构的应用** <br>
 
-* [**随时找到数据流的中位数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_MedianHolder.py) `P462`
-* [切金条问题：**最小分割代价**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_LessMoney.py)
-* [**如何使得项目获得收益最大化**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_IPO.py) `涉及python的类的继承`
 
-**二叉树题** <br>
+**树结构** <br>
 
 * [折纸问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PaperFolding.py)
 * [**二叉树的先序、中序、后序遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PreInPosRecur.py) `重点是非递归实现`
 * [较为直观打印二叉树](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_PrintTree.py)
 * [在二叉树中找到一个节点的后继节点](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_GetNextNode.py)
+* [**前缀树**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_TrieTree.py)
+
+
+
+**堆结构** <br>
+
+* [**随时找到数据流的中位数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_MedianHolder.py) `P462`
+* [切金条问题：**最小分割代价**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_LessMoney.py)
+* [**如何使得项目获得收益最大化**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_IPO.py) `涉及python的类的继承`
+
+
+
+**图结构** <br>
+
+* [图的定义](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_DefineGraph.py)
+
+
+
+
+
+
 
 **其他重要知识** <br>
 
