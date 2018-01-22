@@ -75,7 +75,8 @@
 **图结构** <br>
 
 * [图的定义](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_DefineGraph.py)
-
+* [图的宽度优先遍历](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_BFS.py)
+* [图的深度优先遍历](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_DFS.py)
 
 
 
