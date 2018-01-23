@@ -77,8 +77,9 @@
 * [图的定义](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_DefineGraph.py)
 * [图的宽度优先遍历](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_BFS.py)
 * [图的深度优先遍历](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_DFS.py)
-
-
+* [拓扑排序算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_TopologySort.py)
+* [最小生成树 - Kruskal算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_Kruskal.py) `加边法`
+* [最小生成树 - Prim算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Code5_Prim.py) `加点法`
 
 
 
