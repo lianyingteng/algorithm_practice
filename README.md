@@ -80,11 +80,21 @@
 * [拓扑排序算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Part5_Graph/Code5_TopologySort.py)
 * [最小生成树 - Kruskal算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Part5_Graph/Code5_Kruskal.py) `加边法`
 * [最小生成树 - Prim算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Part5_Graph/Code5_Prim.py) `加点法`
-
-
+* [求单源最短路径 - Dijkstra算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Part5_Graph/Code5_Dijkstra.py)
 
 
 **其他重要知识** <br>
 
 * [**并查集结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_UnionFindSet.py)
 
+
+### 4. 算法基础
+
+**递归** <br>
+
+`函数的递归过程是函数自己调用自己的过程。 基本思想：把一个规模大的问题，转化成若干个规模小的子问题，并且大问题和其子问题的解决策略是一致的（同一种方法）。 递归函数必须有明确的结束条件！`
+
+* [求阶乘](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_r_Factorial.py)
+* [汉诺塔问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_r_Hanio.py)
+
+**动态规划** <br>
