@@ -96,5 +96,7 @@
 
 * [求阶乘](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_r_Factorial.py)
 * [汉诺塔问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_r_Hanio.py)
+* [**打印一个字符串所有子序列**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code7_r_PrintAllSubSequence.py)
+* [**全排列**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code7_r_PrintAllPermutation.py)
 
 **动态规划** <br>
