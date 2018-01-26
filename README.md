@@ -99,6 +99,12 @@
 * [**打印一个字符串所有子序列**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_r_PrintAllSubSequence.py)
 * [**全排列**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_r_PrintAllPermutation.py)
 * [斐波那契系列问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_Fibonacci.py)
+* [最小路径和](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinPathSum.py)
+
+* **换钱问题**
+	 * [**换钱的最少货币数1**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinCoinNum.py)
+	 * [**换钱的最少货币数2**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinCoinNum_2.py)
+	 * [**换钱的方法数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_CoinMethodNum.py)
 
 
 **动态规划** <br>
@@ -106,3 +112,9 @@
 `动态规划是一种分阶段求解决策问题的数学思想。 三个重要的概念： 最优子结构、 边界、 状态转移公式。 动态规划利用自底向上的递推方式，实现时间和空间上的额最优化。`
 
 * [斐波那契系列问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_Fibonacci.py)
+* [**最小路径和**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinPathSum.py)
+
+* **换钱问题**
+	 * [**换钱的最少货币数1**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinCoinNum.py)
+	 * [**换钱的最少货币数2**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinCoinNum_2.py)
+	 * [**换钱的方法数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_CoinMethodNum.py)
