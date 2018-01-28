@@ -106,6 +106,7 @@
 	 * [**换钱的最少货币数2**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinCoinNum_2.py)
 	 * [**换钱的方法数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_CoinMethodNum.py)
 
+* [**完全背包问题**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_Knapsack.py)
 
 **动态规划** <br>
 
@@ -118,3 +119,5 @@
 	 * [**换钱的最少货币数1**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinCoinNum.py)
 	 * [**换钱的最少货币数2**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_MinCoinNum_2.py)
 	 * [**换钱的方法数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_CoinMethodNum.py)
+
+* [**完全背包问题**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_Knapsack.py)
