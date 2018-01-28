@@ -7,7 +7,6 @@ def methodNum_1(arr, aim):
 	if arr == None or len(arr) == 0 or aim < 0:
 		return -1
 
-
 	return process(arr, len(arr) - 1, aim)
 
 
@@ -76,7 +75,7 @@ def methodNum_3(arr, aim):
 
 if __name__ == '__main__':
 	arr = [5, 10, 25, 1]
-	aim = 15
+	aim = 500
 
 	print(methodNum_1(arr, aim))
 	print(methodNum_2(arr, aim))
