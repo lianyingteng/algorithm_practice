@@ -42,7 +42,6 @@
 * [找到有序数组中第一个大于或等于k的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_BinarySearch.py) `二分`
 
 
-
 **链表结构**<br> 
 
 * [打印两个有序链表的公共部分](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_PrintCommonPart.py)  `注： Node类中， value和next依附于实例`
@@ -86,6 +85,12 @@
 **其他重要知识** <br>
 
 * [**并查集结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Code4_UnionFindSet.py)
+* [**窗口最大值和最小值的更新结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_SlidingWindowMaxArray.py)
+	 * [最大值减去最小值小于或等于num的子数组数量](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_SubArrayNumber.py)
+
+* [构建数组的MaxTree](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code8_MaxTreeOfArray.py)
+* [**最大子矩阵的的大小**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxRecSize.py)
+
 
 
 ### 4. 算法基础
@@ -107,6 +112,7 @@
 	 * [**换钱的方法数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_CoinMethodNum.py)
 
 * [**完全背包问题**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_Knapsack.py)
+* [**用递归函数逆序栈**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_r_reverseStack.py)
 
 **动态规划** <br>
 
