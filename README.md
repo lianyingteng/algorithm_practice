@@ -17,9 +17,9 @@
 * [查找无序数组前k个最小的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code11_heapSort.py)  该程序基于堆排序思想，建立大小为k的大根堆。`注： 该问题的最优解是下节中的BFPRT算法` 
 
 ### 2. KMP、Manacher、BFPRT
-* [KMP算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code2_KMP.py) `解决字符串匹配问题`
-* [Manacher算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code2_Manacher.py) `解决最长回文子串问题`
-* [BFPRT算法](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code2_BFPRT.py) `查找无序数组中第k小的数`
+* [**KMP算法**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code2_KMP.py) `解决字符串匹配问题`
+* [**Manacher算法**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code2_Manacher.py) `解决最长回文子串问题`
+* [**BFPRT算法**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code2_BFPRT.py) `查找无序数组中第k小的数`
 #### 应用
 * [最短扩增序列（包含两个输入序列）](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code21_KMP_ShortestHaveTwice.py)  `【基于KMP的next数组构建】`
 
@@ -32,8 +32,8 @@
 * [实现可以输出栈中最小值的栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_GetMinStack.py)
 * [两个栈实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_Stack_To_Queue.py)
 * [两个队列实现栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_Queue_To_Stack.py)
-* [猫狗队列](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_CatDogQueue.py) 
-* [设计RandomPool结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_RandomPool.py) 
+* [**猫狗队列**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_CatDogQueue.py) 
+* [**设计RandomPool结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_RandomPool.py) 
 * [转圈打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_spiralOrderPrintMatrix.py) 
 * [Z字形打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_spiralOrderPrintMatrix.py)
 * [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_FindNumInSortedMatrix.py)
@@ -60,6 +60,7 @@
 * [较为直观打印二叉树](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code4_PrintTree.py)
 * [在二叉树中找到一个节点的后继节点](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code4_GetNextNode.py)
 * [**前缀树**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code5_TrieTree.py)
+* [**Morris遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code8_Morris.py) `遍历二叉树的神级方法`
 
 
 
@@ -91,6 +92,12 @@
 * [构建数组的MaxTree](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code8_MaxTreeOfArray.py)
 * [**最大子矩阵的的大小**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxRecSize.py)
 
+
+**字符串问题** <br>
+
+* [判断两个字符串是否互为变形词](https://github.com/lianyingteng/algorithm_practice/blob/master/Part7_StringQuestion/Code8_IsDeformation.py)
+* [判断两个字符串是否互为旋转词](https://github.com/lianyingteng/algorithm_practice/blob/master/Part7_StringQuestion/Code8_IsRatation.py)
+* [**反转字符串**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part7_StringQuestion/Code8_rotateWord.py)
 
 
 ### 4. 算法基础
