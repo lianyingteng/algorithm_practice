@@ -1,10 +1,14 @@
-""""字符串匹配问题"""
+"""给定两个字符串str1 和 match，长度分别是N和M。实现一个算法，
+如果字符串str1中含有子串match，则返回match在str1中的开始位置，不含有则返回-1
+"""
 def getNextArray(match):
+	"""基于match串生成next数组
+	"""
 	if len(match) == 1:
 		return [-1]
 
 	nextArr = [-1, 0]
-	cn = 0  # cn 表示前一个字符最长匹配前缀的下一个字符位置
+	cn = 0  # cn 表示前一个字符最长匹配前缀的下一个字符位置(前一个字符最长匹配前缀的长度)
 	while len(nextArr) < len(match):
 		if match[len(nextArr)-1] == match[cn]:
 			cn += 1
@@ -18,7 +22,8 @@ def getNextArray(match):
 
 
 def getIndexOf(st1, match):
-	"""KMP"""
+	"""KMP算法
+	"""
 	if str1 == None or match == None or len(match) < 1 or len(str1) < len(match):
 		return -1
 
