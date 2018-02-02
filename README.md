@@ -13,8 +13,8 @@
 #### 应用
 * [最大间隔问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code11_MaxGap.py)  求无序数组排序之后 相邻两数的最大差值？`【桶排序思想的应用】 `
 * [小和问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code11_MinSum.py)  给定一个数组，计算所有小和`【归并排序思想的应用】` 
-* [荷兰国旗问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code11_NetherlandsFlag.py)  小于的放在左边、等于的放在中间、大于的放在右边`【快排划分的应用】`
-* [查找无序数组前k个最小的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code11_heapSort.py)  该程序基于堆排序思想，建立大小为k的大根堆。`注： 该问题的最优解是下节中的BFPRT算法` 
+* [**荷兰国旗问题**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code11_NetherlandsFlag.py)  小于的放在左边、等于的放在中间、大于的放在右边`【快排划分的应用】`
+* [**查找无序数组前k个最小的数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code11_heapSort.py)  该程序基于堆排序思想，建立大小为k的大根堆。`注： 该问题的最优解是下节中的BFPRT算法` 
 
 ### 2. KMP、Manacher、BFPRT
 * [**KMP算法**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part0_Sort/Code2_KMP.py) `解决字符串匹配问题`
@@ -38,8 +38,11 @@
 * [Z字形打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_spiralOrderPrintMatrix.py)
 * [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_FindNumInSortedMatrix.py)
 * [岛屿问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_IsLands.py)
-* [找到无序数组局部最下位置](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_findLessValueIndex.py)  `二分也可用于数组无序的情况`
+* [找到无序数组局部最小位置](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_findLessValueIndex.py)  `二分也可用于数组无序的情况`
 * [找到有序数组中第一个大于或等于k的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_BinarySearch.py) `二分`
+* [子数组的最大累加和](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxSumOfSubArray.py)
+* [子矩阵的最大累加和](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxSumOfSubMatrix.py)
+* [最大的leftMax与rightMax之差的绝对值](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxABS.py)
 
 
 **链表结构**<br> 
@@ -59,7 +62,7 @@
 * [**二叉树的先序、中序、后序遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code4_PreInPosRecur.py) `重点是非递归实现`
 * [较为直观打印二叉树](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code4_PrintTree.py)
 * [在二叉树中找到一个节点的后继节点](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code4_GetNextNode.py)
-* [**前缀树**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code5_TrieTree.py)
+* [**前缀树**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code5_TrieTree.py) `处理字符串常用的数据结构`
 * [**Morris遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code8_Morris.py) `遍历二叉树的神级方法`
 
 
@@ -91,6 +94,7 @@
 
 * [构建数组的MaxTree](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code8_MaxTreeOfArray.py)
 * [**最大子矩阵的的大小**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxRecSize.py)
+* [**蓄水池算法**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_GetKNumsRand.py)
 
 
 **字符串问题** <br>
@@ -134,3 +138,4 @@
 	 * [**换钱的方法数**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_CoinMethodNum.py)
 
 * [**完全背包问题**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code7_Knapsack.py)
+* [**邮局选址问题**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part6_Recursion_DP/Code8_MinDistance.py)
