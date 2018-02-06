@@ -64,6 +64,10 @@
 * [在二叉树中找到一个节点的后继节点](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code4_GetNextNode.py)
 * [**前缀树**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code5_TrieTree.py) `处理字符串常用的数据结构`
 * [**Morris遍历**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code8_Morris.py) `遍历二叉树的神级方法`
+* [跳表结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code9_SkipList.py)
+* [找到二叉树中的最大搜索二叉子树](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code9_FindMaxBST.py) `后序遍历的改写`
+* [**找到二叉树中符合搜索二叉树条件的最大拓扑结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code9_BSTMaxTopoSize.py) `后序遍历的改写`
+* [判断一颗二叉树是否是平衡二叉树](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code9_IsBalance.py)  `后序遍历的改写`
 
 
 
