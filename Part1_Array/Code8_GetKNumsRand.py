@@ -17,7 +17,7 @@ class ReservoirSampling(object):
 			self.bag[num-1] = num
 
 		else:
-
+			k = self.bagSize
 			if self.rand(num) <= k: # num号球进袋子
 				self.bag[self.rand(k) - 1] = num
 
