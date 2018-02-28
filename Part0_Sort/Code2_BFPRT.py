@@ -30,14 +30,14 @@ def select(arr, begin, end, index):
 		return arr[begin]
 
 	pivot = getMedianOfMedians(arr, begin, end)
-	pivotRange = partition(arr, begin, end, pivot)
+	L, R = partition(arr, begin, end, pivot)
 
-	if index >= pivotRange[0] and index <= pivotRange[1]:
-		return arr[index]
-	elif index < pivotRange[0]:
-		return select(arr, begin, pivotRange[0]-1, index)
+	if index >= L and index <= R:
+		return pivot
+	elif index < L:
+		return select(arr, begin, L-1, index)
 	else:
-		return select(arr, pivotRange[1]+1, end, index)
+		return select(arr, R+1, end, index)
 
 def getMedianOfMedians(arr, begin, end):
 	"""得到数组中位数的中位数
@@ -59,7 +59,7 @@ def getMedian(arr, begin, end):
 	"""
 	insertSort(arr, begin, end)
 	sum1 = begin + end  ###
-	mid = (sum1 // 2) + (sum1 % 2)
+	mid = (sum1 // 2)
 	return arr[mid]
 
 def insertSort(arr, begin, end):
