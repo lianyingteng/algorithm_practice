@@ -7,34 +7,34 @@ class Stack_To_Queue(object):
 		队列结构：先进先出
 	"""
 	def __init__(self):
+		self.stack = []
+		self.help = []
 
-		self.stackPush = []
-		self.stackPop = []
+	def push(self, item):
 
-	def add(self, item):
+		self.stack.append(item)
 
-		self.stackPush.append(item)
+	def pop(self):
 
-	def poll(self):
-		if len(self.stackPop) == 0 and len(self.stackPush) == 0:
-			raise ArrayIndexOutOfBoundsException("The queue is empty!")
+		if len(self.stack) == 0 and len(self.help) == 0:
+			raise Exception("The queue is empty")
 
-		if len(self.stackPop) != 0:
-			return self.stackPop.pop(-1)
+		if len(self.help) == 0:
+			while len(self.stack) != 0:
+				self.help.append(self.stack.pop(-1))
 
-		while len(self.stackPush) == 0:
-			self.stackPop.append(self.stackPush.pop(-1))
-
-		return self.stackPop.pop(-1)
+		return self.help.pop(-1)
 
 	def peak(self):
-		if len(self.stackPop) != 0:
-			return self.stackPop[-1]
 
-		if len(self.stackPush) != 0:
-			return self.stackPush[0]
+		if len(self.stack) == 0 or len(self.help) == 0:
+			raise Exception("The queue is empty")
 
-		raise ArrayIndexOutOfBoundsException("The queue is empty!")
+		if len(self.help) == 0:
+			while len(self.stack) != 0:
+				self.help.append(self.stack.pop(-1))
+
+		return self.help[-1]
 
 
 
