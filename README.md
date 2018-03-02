@@ -35,7 +35,7 @@
 * [**猫狗队列**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_CatDogQueue.py) 
 * [**设计RandomPool结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_RandomPool.py) 
 * [转圈打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_spiralOrderPrintMatrix.py) 
-* [Z字形打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_spiralOrderPrintMatrix.py)
+* [Z字形打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_ZigZagPrintMatrix.py)
 * [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_FindNumInSortedMatrix.py)
 * [岛屿问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_IsLands.py)
 * [找到无序数组局部最小位置](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_findLessValueIndex.py)  `二分也可用于数组无序的情况`
