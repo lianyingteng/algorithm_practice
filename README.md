@@ -31,7 +31,7 @@
 * [使用数组实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_Array_To_Queue.py)
 * [实现可以输出栈中最小值的栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_GetMinStack.py)
 * [两个栈实现队列结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_Stack_To_Queue.py)
-* [两个队列实现栈结构](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_Queue_To_Stack.py)
+* [**两个队列实现栈结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_Queue_To_Stack.py)
 * [**猫狗队列**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_CatDogQueue.py) 
 * [**设计RandomPool结构**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_RandomPool.py) 
 * [转圈打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_spiralOrderPrintMatrix.py) 
