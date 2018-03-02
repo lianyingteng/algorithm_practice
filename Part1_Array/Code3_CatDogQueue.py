@@ -49,10 +49,10 @@ class CatDogQueue(object):
 	def add(self, pet):
 		if pet.getPetType() == "Dog":
 			self.count += 1
-			self.qDog.append(PetEnterQueue(pet, count))
+			self.qDog.append(PetEnterQueue(pet, self.count))
 		elif pet.getPetType() == "Cat":
 			self.count += 1
-			self.qCat.append(PetEnterQueue(pet, count))
+			self.qCat.append(PetEnterQueue(pet, self.count))
 		else:
 			raise TypeError("Not Cat Or Dog!")
 
