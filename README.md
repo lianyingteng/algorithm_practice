@@ -38,7 +38,7 @@
 * [Z字形打印矩阵](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_ZigZagPrintMatrix.py)
 * [行列排好序的矩阵中找数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code3_FindNumInSortedMatrix.py)
 * [岛屿问题](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_IsLands.py)
-* [找到无序数组局部最小位置](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_findLessValueIndex.py)  `二分也可用于数组无序的情况`
+* [**找到无序数组局部最小位置**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_findLessValueIndex.py)  `二分也可用于数组无序的情况`
 * [找到有序数组中第一个大于或等于k的数](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code4_BinarySearch.py) `二分`
 * [子数组的最大累加和](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxSumOfSubArray.py)
 * [子矩阵的最大累加和](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxSumOfSubMatrix.py)
