@@ -49,9 +49,9 @@
 
 * [打印两个有序链表的公共部分](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_PrintCommonPart.py)  `注： Node类中， value和next依附于实例`
 * [链表是回文结构？](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_LinkedListIsPalindrome.py)
-* [链表的Partition过程](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_SmallerEqualBigger.py) 
+* [**链表的Partition过程**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_SmallerEqualBigger.py) 
 * [复制含有随机指针节点的链表](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_CopyListWithRandom.py)
-* [寻找两个单链表第一个相交的结点](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_FindFirstIntersectNode.py)
+* [**寻找两个单链表第一个相交的结点**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_FindFirstIntersectNode.py)
 * [反转单(双)向链表](https://github.com/lianyingteng/algorithm_practice/blob/master/Part2_LinkedList/Code3_ReverseList.py)
 
 
