@@ -24,8 +24,7 @@ def fibonacci_2(n):
 	if n < 3:
 		return 1
 
-	a = 1
-	b = 1
+	a, b = 1, 1
 	for _ in range(3, n+1):
 		tmp = a + b
 		a = b
@@ -51,8 +50,8 @@ def treppe_1(n):
 	if n < 1:
 		raise ValueError("The input is illegal! ")
 
-	if n == 1: return 1
-	if n == 2: return 2
+	if n < 3 : 
+		return n
 
 	return treppe_1(n-1) + treppe_1(n-2)
 
@@ -63,11 +62,10 @@ def treppe_2(n):
 	if n < 1:
 		raise ValueError("The input is illegal! ")
 
-	if n == 1: return 1
-	if n == 2: return 2
+	if n < 3 : 
+		return n
 
-	a = 1
-	b = 2
+	a, b = 1, 2
 	for _ in range(3, n+1):
 		tmp = a + b
 		a = b
