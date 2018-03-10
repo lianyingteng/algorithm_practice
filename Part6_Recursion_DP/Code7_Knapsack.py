@@ -46,6 +46,26 @@ def maxValue2(w, v, bag):
 	return dp[0][0]
 
 
+def maxValue3(w, v, bag):
+	"""空间压缩技术"""
+
+	if w == None or len(w) == 0 or v == None or len(v) == 0 or bag < 0:
+		return None
+
+	row, col = len(w) + 1, bag + 1
+	dp = [0] * col
+
+	for i in list(range(row-1))[::-1]:
+		for j in range(col):
+
+			dp[j] = max(
+				dp[j],
+				v[i] + (dp[j+w[i]] if j + w[i] <= bag else -float('inf'))
+				)
+
+	return dp[0]
+
+
 
 
 
@@ -59,4 +79,5 @@ if __name__ == '__main__':
 	while bag <= sum(w):
 		bag += 1
 		print(maxValue1(w, v, bag), end=' ')
-		print(maxValue2(w, v, bag))
+		print(maxValue2(w, v, bag), end=' ')
+		print(maxValue3(w, v, bag))
