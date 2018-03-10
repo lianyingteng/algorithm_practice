@@ -89,21 +89,23 @@ def minCoinNum_2(arr, aim):
 def minCoinNum_3(arr, aim):
 	"""动态规划（空间压缩）P193
 	"""
-	if arr == None or len(arr) == None or aim < 0:
+	if arr == None or len(arr) == 0 or aim < 0:
 		return -1
 
-	row, col = len(arr) - 1, aim + 1
-	dp = [float('inf')] * col
-	dp[0] = 0
+	row, col = len(arr), aim + 1
+	dp = [0] * col
+
+	# 第一行
 	for i in range(1, col):
-		if i % arr[0] == 0:
-			dp[i] = i // arr[0]
+		dp[i] = i // arr[0] if i%arr[0] == 0 else float('inf')
 
 	for i in range(1, row):
-		dp[0] = 0
 		for j in range(1, col):
-			tmp = float('inf') if j - arr[i] < 0 or dp[j - arr[i]] == float('inf') else dp[j - arr[i]] + 1
-			dp[j] = min(dp[j], tmp)
+			
+			dp[j] = min(
+				dp[j],
+				1 + dp[j - arr[i]]
+				) if j-arr[i] >= 0 else float('inf')
 
 	return dp[-1]
 
