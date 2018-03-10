@@ -64,8 +64,6 @@ def process_1(arr, index, aim): # arr[index:] 这些货币，得到aim的最小�
 def minCoinNum_2(arr, aim):
 	"""动态规划 P192  核心： dp[i][j] = min( dp[i-1][j], dp[i][j-arr[i]] + 1)
 	"""
-	def minCoinNum_2(arr, aim):
-
 	if arr == None or len(arr) == 0 or aim < 0:
 		return -1
 
