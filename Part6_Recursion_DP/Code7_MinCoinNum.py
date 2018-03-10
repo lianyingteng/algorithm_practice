@@ -64,32 +64,29 @@ def process_1(arr, index, aim): # arr[index:] 这些货币，得到aim的最小�
 def minCoinNum_2(arr, aim):
 	"""动态规划 P192  核心： dp[i][j] = min( dp[i-1][j], dp[i][j-arr[i]] + 1)
 	"""
+	def minCoinNum_2(arr, aim):
+
 	if arr == None or len(arr) == 0 or aim < 0:
 		return -1
 
-	row, col = len(arr), aim+1
-	# 初始化dp表
+	row, col = len(arr), aim + 1
 	dp = []
 	for _ in range(row):
 		dp.append([0] * col)
 
-	# 初始化dp的第一行
+	# 第一行
 	for i in range(1, col):
-		dp[0][i] = float('inf')
-		if i % arr[0] == 0:
-			dp[0][i] = i // arr[0]
+		dp[0][i] = i//arr[0] if i%arr[0] == 0 else float('inf')
 
-	# 计算其他位置 
 	for i in range(1, row):
 		for j in range(1, col):
-			tmp = float('inf')
-			if j - arr[i] >= 0 and dp[i][j-arr[i]] != float('inf'):
-				tmp = dp[i][j-arr[i]] + 1
+			dp[i][j] = min(
+				dp[i-1][j],
+				1 + dp[i][j-arr[i]]
+				) if j - arr[i] >= 0 else float('inf')
 
-			dp[i][j] = min(tmp, dp[i-1][j])
 
-	return dp[row-1][col-1] if dp[row-1][col-1] != float('inf') else -1
-
+	return dp[row - 1][col - 1] if dp[row-1][col-1] != float('inf') else -1
 
 def minCoinNum_3(arr, aim):
 	"""动态规划（空间压缩）P193
