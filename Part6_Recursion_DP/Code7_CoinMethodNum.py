@@ -54,23 +54,21 @@ def methodNum_2(arr, aim):
 def methodNum_3(arr, aim):
 	"""动态规划（空间压缩）
 	"""
-	if arr == None or len(arr) == None or aim < 0:
-		return -1
+	if arr == None or len(arr) == 0 or aim < 0:
+		return 0
 
 	row, col = len(arr), aim + 1
-
 	dp = [0] * col
 	dp[0] = 1
 	for i in range(1, col):
-		dp[i] = 1 if i % arr[0] == 0 else 0
+		dp[i] = 1 if i%arr[0] == 0 else 0
 
-	# 其他位置
 	for i in range(1, row):
 		for j in range(1, col):
-			tmp = dp[j-arr[i]] if j - arr[i] >= 0 else 0
-			dp[j] = dp[j] + tmp
+			
+			dp[j] = dp[j] + (dp[j-arr[i]]  if j-arr[i] >= 0 else 0)
 
-	return dp[col-1]
+	return dp[-1]
 
 
 if __name__ == '__main__':
