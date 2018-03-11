@@ -41,7 +41,7 @@ def getNum_2(arr, num):
 				qmin.pop(-1)
 			qmin.append(r)
 
-			if qmax[0] - qmin[0] > num:
+			if arr[qmax[0]] - arr[qmin[0]] > num:
 				break
 			else:
 				r += 1
