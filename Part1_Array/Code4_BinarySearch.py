@@ -7,7 +7,7 @@ def findNumberIndex(arr, target):
 
 	l, r = 0, len(arr) - 1
 	res = -1
-	while r >= l:
+	while r > l:
 		mid = l + ((r-l)>>1)
 		if arr[mid] >= target:
 			r = mid - 1
