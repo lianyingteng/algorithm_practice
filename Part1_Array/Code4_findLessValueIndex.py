@@ -13,7 +13,7 @@ def getLessIndex(arr):
 
 	left, right = 1, len(arr) - 2 ###
 	while left <= right:
-		mid = left + (right - left) >> 1
+		mid = left + (right - left) // 2
 		if arr[mid] > arr[mid + 1]:
 			left = mid + 1
 		elif arr[mid] > arr[mid - 1]:
