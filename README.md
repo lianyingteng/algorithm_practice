@@ -44,7 +44,7 @@
 * [子数组的最大累加和](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxSumOfSubArray.py)
 * [子矩阵的最大累加和](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxSumOfSubMatrix.py)
 * [最大的leftMax与rightMax之差的绝对值](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxABS.py)
-
+* [无序数组中3数相乘的最大值](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/maxMulValue.py)
 
 **链表结构**<br> 
 
