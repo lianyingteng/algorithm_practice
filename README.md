@@ -101,7 +101,7 @@
 * [构建数组的MaxTree](https://github.com/lianyingteng/algorithm_practice/blob/master/Part3_Tree/Code8_MaxTreeOfArray.py)
 * [**最大子矩阵的的大小**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_MaxRecSize.py)
 * [**蓄水池算法**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part1_Array/Code8_GetKNumsRand.py)
-* [位运算-快速N次方]（https://github.com/lianyingteng/algorithm_practice/blob/master/getPower.py）
+* [位运算-快速N次方](https://github.com/lianyingteng/algorithm_practice/blob/master/getPower.py)
 
 
 **字符串问题** <br>
