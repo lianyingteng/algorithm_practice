@@ -14,7 +14,7 @@ def kruskalMSI(graph):
 		min_heap.push(edge)
 
 	result = set()
-	while min_heap.getSize() == 0:
+	while min_heap.getSize() != 0:
 		edge = min_heap.pop()
 		if not union_find.isSameSet(edge.start, edge.end):
 			result.add(edge)
