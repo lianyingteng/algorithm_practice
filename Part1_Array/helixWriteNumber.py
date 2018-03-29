@@ -1,37 +1,34 @@
-def getMatrix(n, matrix):
+def getMatrix(n):
 
-	k = 1
+	matrix = []
+	for _ in range(n):
+		matrix.append([0] * n)
+
+	count = 1
 	for i in range(n//2 + 1):
 
 		for j in range(i, n-i):  # 上方行
-			matrix[i][j] = k
-			k += 1
+			matrix[i][j] = count
+			count += 1
 
-		for j in range(i+1, n-i):  # 右侧列
-			matrix[j][n-i-1] = k
-			k += 1
+		for j in range(i+1, n-i-1):  # 右侧列
+			matrix[j][n-i-1] = count
+			count += 1
 
-		for j in list(range(i, n-i-1))[::-1]: # 下方行
-			matrix[n-i-1][j] = k
-			k += 1
+		for j in list(range(i+1, n-i))[::-1]:  # 下方行
+			matrix[n-i-1][j] = count
+			count += 1
 
-		for j in list(range(i+1, n-i-1))[::-1]: # 左侧列
-			matrix[j][i] = k
-			k += 1
+		for j in list(range(i+1, n-i))[::-1]: # 左侧列
+			matrix[j][i] = count
+			count += 1
 
 
 	for each in matrix:
 		print(each)
 
 
-
-
-n = 5
-matrix = []
-for _ in range(n):
-	matrix.append([0] * n)
-
-getMatrix(n, matrix)
+getMatrix(5)
 
 
 """
