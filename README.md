@@ -109,7 +109,7 @@
 * [判断两个字符串是否互为变形词](https://github.com/lianyingteng/algorithm_practice/blob/master/Part7_StringQuestion/Code8_IsDeformation.py)
 * [判断两个字符串是否互为旋转词](https://github.com/lianyingteng/algorithm_practice/blob/master/Part7_StringQuestion/Code8_IsRatation.py)
 * [**反转字符串**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part7_StringQuestion/Code8_rotateWord.py)
-
+* [**最长无重复子串的长度**](https://github.com/lianyingteng/algorithm_practice/blob/master/Part7_StringQuestion/maxUnique.py)
 
 ### 4. 算法基础
 
